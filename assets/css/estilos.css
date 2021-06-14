@@ -1,0 +1,213 @@
+.panel-title{
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+#main{
+        margin-top: 100px;
+}
+
+.u-size-100{
+	width: 100px;
+	text-align: center;
+}
+
+.main-form{
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.panel-info>.panel-heading{
+	color: #ffffff;
+    background-color: #e95420;
+}
+.main-login{
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.footer{
+	margin-top: 100px;
+  
+}
+
+.titulo-pelicula{
+	font-size: 15px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.img-responsive{
+	Height: 250px;
+	Display:block;
+	Margin:auto;
+}
+
+#filtros {
+    margin-bottom: 30px;
+    width: 100%;
+    position: relative;
+    left: 2%;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+.precio{
+    font-weight: bolder;
+    margin: 9px auto;
+    position: relative;
+    font-size: x-large;
+    font-family: serif;
+}
+.buscar{
+	position: absolute;
+}
+
+/*============ Paginador =============*/
+.paginador ul{
+	padding: 15px;
+	list-style: none;
+	background: #FFF;
+	margin-top: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+.paginador a, .pageSelected{
+	color: #428bca;
+	border: 1px solid #ddd;
+	padding: 5px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	width: 35px;
+}
+.paginador a:hover{
+	background: #ddd;
+}
+.pageSelected{
+	color: #FFF;
+	background: #428bca;
+	border: 1px solid #428bca;
+}
+.paginador
+	{
+		width: 21%;
+		margin: 0 auto;
+	}
+
+	.ficha-titulo{
+		font-size: xx-large;
+		font-family: fantasy;
+		text-decoration: underline;
+	}
+
+	.caratula {
+			
+			border: 4px solid #000;
+	}
+
+	.comprar{
+		
+			width: 42%;
+			position: relative;
+			padding: 5%;
+			margin-left: 31%;
+	
+	}
+	.datos{
+		list-style: none;
+		font-size: x-large;
+	}
+
+	.datos li{
+		font-family: cursive;
+	}
+
+	.datos-peli{
+		left: 6%;
+		position: relative;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.trailer{
+		text-align: center;
+	}
+
+	.sinopsis{
+		font-family: cursive;
+		text-decoration: underline;
+	}
+	.sinopsisp{
+		font-size: x-large;
+    font-family: fantasy;
+	}
+
+	.sinopsis-container{
+		bottom: 4em;
+	}
+
+		/*Switch*/
+		body,nav{
+			transition: .7s ease all;
+		}
+		body.dark{
+			background: #1e1d1f;
+			color: #31eef5;
+		}
+		body.dark legend{
+			
+			color: #31eef5;
+		}
+		body.dark nav{
+			background: #2a055c;
+		}
+		body.dark .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+			background:#428bca;
+		}
+	
+	
+		.switch{
+			background-color: white;
+			border-radius: 1000px;
+			border:none;
+			position: relative;
+			cursor: pointer;
+			display: flex;
+			outline: none;
+			top: 17px;
+		}
+		.switch::after{
+			content: "";
+			display: block;
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			background: #428bca;
+			top: 0;
+			left: 0;
+			right: unset;
+			border-radius: 100px;
+			transition: .3s ease all;
+			box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
+		}
+		.switch.active{
+			background-color: orange;
+			color: #000;
+		}
+	
+		.switch.active::after{
+			right: 0;
+			left: unset;
+		}
+		.switch span{
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			display: block;
+			background: none;
+			color: #343D5B;
+		}
+
